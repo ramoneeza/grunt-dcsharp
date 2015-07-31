@@ -1,0 +1,45 @@
+{
+  "name": "grunt-dcsharp",
+  "description": "Launch CSharp Tasks from grunt. Requires C# 6.0 / .NET 4.6",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ramoneeza/grunt-dcsharp",
+  "author": {
+    "name": "Ramon Ordiales",
+    "email": "ramon@eeza.csic.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramoneeza/grunt-dcsharp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramoneeza/grunt-dcsharp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ramoneeza/grunt-dcsharp/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "dcsharp":"^0.1.6",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5",
+    "dcsharp":"^0.1.6"
+  },
+  "keywords": [
+    "gruntplugin",
+    "C# 6.0",
+    ".NET 4.6"
+  ]
+}
